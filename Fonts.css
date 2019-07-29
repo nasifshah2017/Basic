@@ -1,0 +1,50 @@
+/* font-family */	/* style */
+
+p {
+	font-family: Arial;
+}
+
+h1 {
+	font-family: Indie Flower; /* Using Google Font */
+}
+
+/* font-size */
+
+span {
+	font-size: 2.0em;
+}
+
+/* font-weight */	/* Thickness */
+
+p {
+	font-weight: bold;	/* Makes the letters bold */
+
+	/* Other than being bold we can also set number between 100 and 800, where we can only set the 100th number */
+	/* Meaning 100, 200, 300, 400, 500, 600, 700 and 800 */
+}
+
+/* line-height */	/* Determines the spacing between lines, the higher the number the more the spacing */
+
+p {
+	line-height: 2;
+}
+
+/* text-align */	/* Shifts the selected text either to the left, right or to the center */
+
+h1 {
+	text-align: right
+}
+
+p {
+	text-align: center;
+}
+
+
+/* text-decoration */	/* Decorating text by properties */
+p {
+	text-decoration: underline;	/* Underlining the selected text */
+}
+
+h1 {
+	text-decoration: line-through;	/* Putting a line on the selected text */
+}
