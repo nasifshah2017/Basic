@@ -3,7 +3,7 @@ var p2Button = document.getElementById("p2");
 var resetButton = document.getElementById("reset");
 var p1Display = document.querySelector("#p1Display");
 var p2Display = document.querySelector("#p2Display");
-var numInput = document.querySelector("input[number]");
+var numInput = document.querySelector("input[number]");  	// Selecting the string value entered in the input field by the user
 var winningScoreDisplay = document.querySelector("p span"); // Selecting the span element inside a paragrapgh tag
 var p1Score = 0;
 var p2Score = 0;
@@ -61,6 +61,6 @@ function reset() {
 function update() {
 	winningScoreDisplay.textContent = numInput.value;
 	winningScore = Number(numInput.value);	//Converting the value from string to number
-	reset();								// Resetting the game
+	reset();		// Resetting the game
 }
 
