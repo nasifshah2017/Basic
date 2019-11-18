@@ -15,9 +15,9 @@ p2Button.addEventListener("click", player2);
 resetButton.addEventListener("click", reset);
 numInput.addEventListener("change", update);
 
-// A "change" event will run anytime the value changes on the field, it doesn't matter how that value 
-// changed, it could be because we clicked or hit the delete key or even input a number ourselves, then
-// also the value will change and then the "update" function will run
+// The "change" event will run anytime the value changes on the field, it doesn't matter how that value 
+// changes, it could change because we clicked the reset button or hit the delete key or even input a   
+// new number ourselves, in any case the value on the input field changes, the "update" function will run.
 
 
 function player1() {
